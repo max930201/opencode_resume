@@ -513,6 +513,12 @@ a:hover { text-decoration: underline; }
   color: var(--ink-2);
   flex: 1;
 }
+.card-note {
+  margin: 6px 0 0;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink-3);
+}
 
 .card-tags {
   display: flex;
