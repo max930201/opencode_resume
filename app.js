@@ -112,6 +112,8 @@
       linkHTML = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(url) + "</a>" : "待補上網址";
     }
 
+    var descLine = descText ? '<p class="card-desc">' + esc(descText) + "</p>" : "";
+
     var panel =
       "<div><dt>說明</dt><dd>" + esc(detailText) + "</dd></div>" +
       "<div><dt>技術</dt><dd>" + esc(item.stack.join(" · ")) + "</dd></div>" +
@@ -124,7 +126,7 @@
           '<a class="card-demo' + demoCls + '" href="' + demoHref + '" target="_blank" rel="noopener" title="' + esc(demoTitle) + '">' + esc(demoText) + "</a>" +
         "</div>" +
         '<h3 class="card-title">' + esc(item.title) + "</h3>" +
-        '<p class="card-desc">' + esc(descText) + "</p>" +
+        descLine +
         noteLine +
         '<div class="card-tags">' +
           '<span class="chip ' + chipCls + '">' + esc(catLabel) + "</span>" +
