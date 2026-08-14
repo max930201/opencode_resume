@@ -101,7 +101,7 @@
     var noteLine = item.note ? '<p class="card-note">' + esc(item.note) + "</p>" : "";
 
     var detailText = item.detail || item.desc || "";
-    var descText = item.desc || (kind === "birthday" ? "送給" + item.group + "的專屬生日祝福網頁。" : "");
+    var descText = item.desc != null ? item.desc : (kind === "birthday" ? "送給" + item.group + "的專屬生日祝福網頁。" : "");
 
     var linkHTML;
     if (kind === "functional" && item.links && item.links.length) {
