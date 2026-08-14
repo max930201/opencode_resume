@@ -81,6 +81,8 @@
 
   function cardHTML(item, kind) {
     var k = KIND[kind];
+    var chipCls = k.chip;
+    if (kind === "birthday" && item.group === "朋友") chipCls = "chip--sky";
     var url = item.url || (item.links && item.links[0] && item.links[0].href) || "";
     var catLabel = kind === "birthday" ? item.group : item.status;
     var slug = kind === "birthday" ? slugOf(url) : item.slug;
@@ -123,7 +125,7 @@
         '<p class="card-desc">' + esc(descText) + "</p>" +
         noteLine +
         '<div class="card-tags">' +
-          '<span class="chip ' + k.chip + '">' + esc(catLabel) + "</span>" +
+          '<span class="chip ' + chipCls + '">' + esc(catLabel) + "</span>" +
           dbChip + stackChips +
         "</div>" +
         '<div class="card-foot">' +

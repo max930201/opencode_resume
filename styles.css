@@ -26,6 +26,9 @@
   --teal: #0c726a;
   --teal-bg: #e2f1ee;
   --teal-ink: #0b5d57;
+  --sky: #1f6feb;
+  --sky-bg: #e3edfc;
+  --sky-ink: #1a56b0;
 
   /* 字體 */
   --font-display: "Sora", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
@@ -530,6 +533,8 @@ a:hover { text-decoration: underline; }
 .chip--rose::before { background: var(--rose); }
 .chip--teal { background: var(--teal-bg); color: var(--teal-ink); }
 .chip--teal::before { background: var(--teal); }
+.chip--sky { background: var(--sky-bg); color: var(--sky-ink); }
+.chip--sky::before { background: var(--sky); }
 .chip--stack { background: #f0ede3; color: var(--ink-2); font-weight: 500; }
 .chip--stack::before { display: none; }
 .chip--db {
