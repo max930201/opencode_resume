@@ -14,7 +14,7 @@ const PORTFOLIO = {
     position: "前端網頁開發 · 嘉南藥理大學資管系（進修部）",
     school: "嘉南藥理大學 資訊管理學系（進修部）",
     titleZh: "跨越意外，持續前進的資管系學生。",
-    titleEn: "Front-end development — real, deployed systems.",
+    //titleEn: "Front-end development — real, deployed systems.",
     installCmd: "npm install @max930201/portfolio",
     email: "max99296@gmail.com",
     phone: "0983637717",
@@ -34,9 +34,10 @@ const PORTFOLIO = {
     { group: "家人", title: "爸爸的生日網頁", url: "https://dad-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "家人", title: "媽媽的生日網頁", url: "https://mom-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "家人", title: "姐姐的生日網頁", url: "https://phyllies-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
-    { group: "家人", title: "表姑姑的生日網頁", url: "https://liu-hsing-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "家人", title: "雙胞胎姊姊的生日網頁", url: "https://mina-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
+    { group: "家人", title: "表姑姑的生日網頁", url: "https://liu-hsing-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "朋友", title: "龔致豪的生日網頁", url: "https://zackyia-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
+    { group: "朋友", title: "龔致豪道別信網頁", url: "https://zackyia-save-travels.netlify.app/", stack: ["HTML", "CSS"], note: "補充生日網頁未收錄的卡片" },
     { group: "朋友", title: "思淼的生日網頁", url: "https://si-miao-hbd.netlify.app/", stack: ["HTML", "CSS", "JS", "資料庫"], db: true, note: "後端資料庫，可儲存訪客留言" },
     { group: "朋友", title: "徐振軒的生日網頁", url: "https://enderson-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "朋友", title: "張仕翰的生日網頁", url: "https://ditto-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
@@ -48,7 +49,6 @@ const PORTFOLIO = {
     { group: "治療師", title: "羿均老師的生日網頁", url: "https://yi-chun-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "治療師", title: "育均老師的生日網頁", url: "https://yu-chun-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "治療師", title: "鄒老師的生日網頁", url: "https://zou-therapist-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
-    { group: "朋友", title: "龔致豪道別信網頁", url: "https://zackyia-save-travels.netlify.app/", stack: ["HTML", "CSS"], note: "補充生日網頁未收錄的卡片" },
   ],
 
   // ── 功能性系統（5 個，真實專案）────────────────────
