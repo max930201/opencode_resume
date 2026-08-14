@@ -11,7 +11,7 @@ const PORTFOLIO = {
     version: "v1.0.0",
     tag: "資管系",
     license: "公開 public",
-    position: "前端網頁開發 · 嘉南藥理大學資管系（進修部）",
+    position: "嘉南藥理大學資管系（進修部）在學中",
     school: "嘉南藥理大學 資訊管理學系（進修部）",
     titleZh: "跨越意外，持續前進的資管系學生。",
     //titleEn: "Front-end development — real, deployed systems.",
