@@ -84,6 +84,7 @@
     var chipCls = k.chip;
     if (kind === "birthday" && item.group === "朋友") chipCls = "chip--sky";
     if (kind === "birthday" && item.group === "治療師") chipCls = "chip--green";
+    if (kind === "functional" && item.status === "個人開發完成") chipCls = "chip--purple";
     var url = item.url || (item.links && item.links[0] && item.links[0].href) || "";
     var catLabel = kind === "birthday" ? item.group : item.status;
     var slug = kind === "birthday" ? slugOf(url) : item.slug;

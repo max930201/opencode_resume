@@ -32,6 +32,9 @@
   --green: #2f9e44;
   --green-bg: #e6f4ea;
   --green-ink: #237032;
+  --purple: #9a6cff;
+  --purple-bg: #f2ecff;
+  --purple-ink: #6d3fd1;
 
   /* 字體 */
   --font-display: "Sora", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
@@ -540,6 +543,8 @@ a:hover { text-decoration: underline; }
 .chip--sky::before { background: var(--sky); }
 .chip--green { background: var(--green-bg); color: var(--green-ink); }
 .chip--green::before { background: var(--green); }
+.chip--purple { background: var(--purple-bg); color: var(--purple-ink); }
+.chip--purple::before { background: var(--purple); }
 .chip--stack { background: #f0ede3; color: var(--ink-2); font-weight: 500; }
 .chip--stack::before { display: none; }
 .chip--db {

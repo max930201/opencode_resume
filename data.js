@@ -70,7 +70,7 @@ const PORTFOLIO = {
     {
       slug: "medical-card",
       title: "治療師病人衛教卡系統",
-      status: "已上線",
+      status: "個人開發完成",
       desc: "治療師管理病人衛教資訊，病人以驗證碼登入專屬衛教卡。",
       detail:
         "治療師登入後台前須先通過 Firestore Authentication 白名單驗證；新增病人時系統自動產生 8 位數驗證碼，作為病人登入專屬衛教卡的密碼（以姓名作為帳號）。系統每日固定時間自動備份治療師與病人資料至 Notion。",
@@ -84,7 +84,7 @@ const PORTFOLIO = {
     {
       slug: "factory-salary",
       title: "工廠薪水計算系統",
-      status: "已上線",
+      status: "個人開發完成",
       desc: "依簽到簽退自動計算工時，同步至 Google Sheets 計算薪資。",
       detail:
         "依員工上下班的簽到、簽退時間自動計算總工時，並將紀錄同步至 Google Sheet，用以計算並記錄員工薪資。",
@@ -95,7 +95,7 @@ const PORTFOLIO = {
     {
       slug: "wash-coin",
       title: "洗衣店代收款記錄系統",
-      status: "已上線",
+      status: "個人開發完成",
       desc: "兩間門市的每日代收款記錄，輸入即存入 Google Sheet。",
       detail:
         "可自由選擇兩間洗衣店門市，記錄當天現場收取的金額，輸入完成後自動存入 Google Sheet 保存紀錄。",
@@ -106,7 +106,7 @@ const PORTFOLIO = {
     {
       slug: "family-dinner",
       title: "家庭聚餐紀錄網頁",
-      status: "持續更新中",
+      status: "個人開發完成",
       desc: "以網頁形式保存家人假日聚餐的生活點滴。",
       detail: "記錄家人假日聚餐的生活點滴，練習以網頁形式保存與呈現生活紀錄。",
       stack: ["HTML", "CSS", "JavaScript"],
