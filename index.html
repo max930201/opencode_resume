@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>李瑞勳 · 前端網頁開發作品集</title>
+  <meta name="description" content="跨越意外，持續前進的資管系學生。18 個生日祝福網頁與 5 個真實上線系統。">
+  <meta property="og:title" content="李瑞勳 · 前端網頁開發作品集">
+  <meta property="og:description" content="跨越意外，持續前進的資管系學生。">
+  <meta property="og:image" content="assets/images/profile-photo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--
+  CONTRACT · 「人即套件」npm 世界 · seed 4aca2e97
+  THESIS: 面向面試官的前端工程師作品集；拒絕「大頭照＋歡迎語＋幾張卡片」的常規模板。把自己當成一個可安裝的 npm 套件，打開首頁 = 檢視我的 package card。
+  OWN-WORLD: 暖白 registry 紙面 (#fbfaf6)、墨色文字、npm 紅 (#c12127) 用作徽章與連結，生日＝珊瑚、功能＝青綠。Sora 為展示字形，JetBrains Mono 管版本／指令／資料，中文走系統 CJK。1px 髮絲線、輕柔偏移陰影、8–10px 圓角。
+  STORY: 訪客看到「@你的名字/frontend-engineer」套件卡，讀懂我是做得出、部署得上線的前端工程師，在兩大集合（生日網頁／功能性網頁）裡逐一展開真實作品，最後經聯絡 CTA 把我加入候選。
+  FIRST VIEWPORT: 左側大 package card（名稱＋版本徽章＋中文一句話＋install 指令即時打字＋主按鈕），右側 meta 側欄（版本／授權／部署／技術／作品數／聯絡）。主行動 = 往下看 23 個作品。
+  FORM: 自建方向第 4 位（index 3）；seed 4aca2e97。
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+<a class="skip-link" href="#main">跳到主要內容</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top" aria-label="回到頁首">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 7v10M12 7v7M16 7v10"/></svg>
+      <span class="brand-text" data-field="navScope">@你的名字</span>
+    </a>
+    <nav class="nav-links" aria-label="主要導覽">
+      <a href="#birthday">生日網頁</a>
+      <a href="#functional">功能性網頁</a>
+      <a href="#skills">技術能力</a>
+      <a href="#certificates">證照</a>
+      <a href="#about">關於我</a>
+    </nav>
+    <a class="btn btn--pill" href="#contact">聯絡我</a>
+  </div>
+</header>
+
+<main id="main">
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <div class="hero-main">
+        <nav class="breadcrumb" aria-label="所在位置">
+          <span>registry</span><span class="crumb-sep">/</span><span>portfolio</span><span class="crumb-sep">/</span><span data-field="breadcrumb">@你的名字/frontend-engineer</span>
+        </nav>
+
+        <h1 class="pkg-name">
+          <span class="pkg-scope" data-field="pkgScope">@你的名字</span><span class="pkg-slash">/</span><span class="pkg-repo">frontend-engineer</span>
+        </h1>
+
+        <ul class="pkg-badges" aria-label="版本資訊">
+          <li class="badge badge--v" data-field="pkgVersion">v1.0.0</li>
+          <li class="badge">公開 public</li>
+          <li class="badge" data-field="pkgTag">資管系</li>
+        </ul>
+
+        <p class="pkg-desc-zh" data-field="titleZh">把網頁真的做出來、部署上線、能用的人。</p>
+        <p class="pkg-desc-en" data-field="titleEn">Web pages built, shipped &amp; working.</p>
+
+        <ul class="pkg-keywords" aria-label="關鍵字">
+          <li>前端</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>資料庫串接</li>
+          <li>響應式設計</li>
+        </ul>
+
+        <div class="hero-actions">
+          <button type="button" class="install-line" data-field="installCmd" data-copy="npm install 你的名字-portfolio">
+            <span class="install-dollar">$</span>
+            <span class="install-cmd">npm install 你的名字-portfolio</span>
+            <span class="install-caret" aria-hidden="true"></span>
+            <span class="install-copy">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V7a2 2 0 0 1 2-2h8"/></svg>
+              <span class="copy-label">複製</span>
+            </span>
+          </button>
+          <a class="btn btn--primary" href="#birthday">
+            <span>瀏覽 23 個作品</span>
+            <svg class="ic ic--down" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <aside class="meta-card" aria-label="套件資訊">
+        <div class="meta-author">
+          <img class="meta-avatar" src="assets/images/profile-photo.jpg" alt="李瑞勳的個人照片" data-field="avatar" width="56" height="56">
+          <div class="meta-author-text">
+            <p class="meta-author-name" data-field="authorName">李瑞勳</p>
+            <p class="meta-author-handle" data-field="authorHandle">@max930201</p>
+          </div>
+        </div>
+        <div class="meta-row"><dt>版本</dt><dd data-field="pkgVersion">v1.0.0</dd></div>
+        <div class="meta-row"><dt>學校</dt><dd data-field="school">嘉南藥理大學 資管系</dd></div>
+        <div class="meta-row"><dt>職位</dt><dd data-field="position">前端網頁開發</dd></div>
+        <div class="meta-row"><dt>作品</dt><dd data-field="statsLine">23 個作品</dd></div>
+        <div class="meta-row"><dt>資料庫</dt><dd>5 個專案串接 Firebase／Sheets</dd></div>
+        <div class="meta-row"><dt>最近更新</dt><dd>2026-08</dd></div>
+        <div class="meta-row"><dt>聯絡</dt><dd><a data-field="email" href="#" aria-label="寄信給我">Email</a> · <a data-field="phone" href="#" aria-label="電話聯絡">電話</a> · <a data-field="github" href="#" target="_blank" rel="noopener">GitHub</a></dd></div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="birthday" class="section" aria-labelledby="birthday-title">
+    <div class="sec-head">
+      <h2 id="birthday-title">生日網頁 <span class="sec-en">Birthday pages</span></h2>
+      <p class="sec-lead">為家人、朋友與治療師老師製作的客製化生日祝福網頁，共 18 個。其中部分作品串接後端資料庫，可儲存訪客留言。</p>
+    </div>
+    <div class="grid grid--birthday" data-grid="birthday" aria-label="生日網頁作品列表">
+      <noscript><p class="noscript-hint">此區需要 JavaScript 載入作品；請啟用 JavaScript 後重新整理。</p></noscript>
+    </div>
+  </section>
+
+  <section id="functional" class="section" aria-labelledby="functional-title">
+    <div class="sec-head">
+      <h2 id="functional-title">功能性網頁 <span class="sec-en">Functional pages</span></h2>
+      <p class="sec-lead">真實上線、實際運作的系統：會員商城、醫療衛教、薪資計算與門市記帳，多數串接 Firebase／Google Sheets 後端資料。</p>
+    </div>
+    <div class="grid grid--functional" data-grid="functional" aria-label="功能性網頁作品列表">
+      <noscript><p class="noscript-hint">此區需要 JavaScript 載入作品；請啟用 JavaScript 後重新整理。</p></noscript>
+    </div>
+  </section>
+
+  <section id="certificates" class="section section--wash" aria-labelledby="certificates-title">
+    <div class="sec-head">
+      <h2 id="certificates-title">證照證書 <span class="sec-en">Certificates</span></h2>
+      <p class="sec-lead">考試與培訓取得的證明，透過持續學習累積下來的成果。</p>
+    </div>
+    <div class="grid grid--certs" data-grid="certificates" aria-label="證照證書列表">
+      <noscript><p class="noscript-hint">此區需要 JavaScript 載入。</p></noscript>
+    </div>
+  </section>
+
+  <section id="skills" class="section" aria-labelledby="skills-title">
+    <div class="sec-head">
+      <h2 id="skills-title">技能庫 <span class="sec-en">Dependencies</span></h2>
+      <p class="sec-lead">我依賴的每個套件，安裝即用。</p>
+    </div>
+    <div class="dep-table" role="table" aria-label="技能 dependencies">
+      <div class="dep-row dep-row--head" role="row">
+        <span role="columnheader">名稱</span>
+        <span role="columnheader">版本</span>
+        <span role="columnheader">說明</span>
+      </div>
+      <div class="dep-body" data-grid="skills" role="rowgroup">
+        <noscript><p class="noscript-hint">此區需要 JavaScript 載入。</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section" aria-labelledby="about-title">
+    <div class="about-wrap">
+      <div class="about-readme">
+        <div class="readme-tab" aria-hidden="true">README.md</div>
+        <div class="readme-head">
+          <h2 id="about-title">關於我</h2>
+          <p class="readme-byline" data-field="authorName">李瑞勳</p>
+        </div>
+        <img class="readme-photo" src="assets/images/profile-photo.jpg" alt="李瑞勳的個人照片" data-field="avatar" width="96" height="96">
+        <dl class="readme-basic">
+          <div><dt>學校</dt><dd data-field="school">嘉南藥理大學 資訊管理學系（進修部）</dd></div>
+          <div><dt>生日</dt><dd data-field="birthday">93/02/01</dd></div>
+          <div><dt>血型</dt><dd data-field="bloodType">O</dd></div>
+          <div><dt>信箱</dt><dd data-field="emailText">max99296@gmail.com</dd></div>
+        </dl>
+        <div class="readme-story" data-grid="about-story">
+          <noscript><p class="noscript-hint">此區需要 JavaScript 載入。</p></noscript>
+        </div>
+        <div class="readme-cols">
+          <div>
+            <h3>技術面</h3>
+            <ul class="checklist">
+              <li>前端：HTML、CSS、JavaScript</li>
+              <li>後端：Firebase、Google Apps Script</li>
+              <li>部署：Git、GitHub、Netlify</li>
+            </ul>
+          </div>
+          <div>
+            <h3>語言能力</h3>
+            <ul class="checklist">
+              <li>全民英檢初級通過</li>
+              <li>全民英檢中級（初試合格）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <aside class="meta-card meta-card--about" aria-label="生涯版本">
+        <h3 class="releases-title">學習歷程 <span class="sec-en">Releases</span></h3>
+        <ol class="releases" data-grid="releases">
+          <noscript><p class="noscript-hint">此區需要 JavaScript 載入。</p></noscript>
+        </ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="contact" class="section section--ink" aria-labelledby="contact-title">
+    <div class="contact-inner">
+      <h2 id="contact-title">把我加入你的候選清單</h2>
+      <p class="contact-lead">Add me to your shortlist — 一封 Email 就夠了。</p>
+      <div class="contact-actions">
+        <a class="btn btn--light" href="mailto:you@example.com" data-field="emailHref">
+          寄信給我
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="#" target="_blank" rel="noopener" data-field="githubHref">
+          看 GitHub
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.5 1-.5 2V21"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="tel:0983637717" data-field="phoneHref">
+          打電話
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h3l1.5 4.5-2 1.5a12 12 0 0 0 6.5 6.5l1.5-2L21 15v3a2 2 0 0 1-2 2A16 16 0 0 1 4 5a2 2 0 0 1 2-2z"/></svg>
+        </a>
+      </div>
+      <p class="contact-note" data-field="email">mailto: max99296@gmail.com</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-inner">
+    <div class="foot-mono">
+      <span>made by <strong data-field="footScope">@你的名字</strong></span><span class="crumb-sep">·</span>
+      <span>html</span><span class="crumb-sep">·</span><span>css</span><span class="crumb-sep">·</span><span>javascript</span>
+      <span class="crumb-sep">·</span><span>deployed on netlify</span>
+    </div>
+    <p class="foot-note">© 2026 李瑞勳 · 個人履歷</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
