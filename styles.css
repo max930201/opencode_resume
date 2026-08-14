@@ -514,10 +514,11 @@ a:hover { text-decoration: underline; }
   flex: 1;
 }
 .card-note {
-  margin: 2px 0 0;
-  font-size: 13.5px;
+  margin: 8px 0 0;
+  font-size: 14.5px;
   line-height: 1.6;
-  color: var(--ink-3);
+  color: var(--ink-2);
+  flex: 1;
 }
 
 .card-tags {
