@@ -38,7 +38,7 @@ const PORTFOLIO = {
     { group: "家人", title: "表姑姑的生日網頁", url: "https://liu-hsing-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "朋友", title: "龔致豪的生日網頁", url: "https://zackyia-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "朋友", title: "龔致豪道別信網頁", url: "https://zackyia-save-travels.netlify.app/", stack: ["HTML", "CSS"], desc: "", note: "跟朋友道別的網頁" },
-    { group: "朋友", title: "思淼的生日網頁", url: "https://si-miao-hbd.netlify.app/", stack: ["HTML", "CSS", "JS", "資料庫"], db: true, note: "後端資料庫，可儲存訪客留言" },
+    { group: "朋友", title: "思淼的生日網頁", url: "https://si-miao-hbd.netlify.app/", stack: ["HTML", "CSS", "JS"], db: true, note: "後端資料庫，可儲存訪客留言" },
     { group: "朋友", title: "徐振軒的生日網頁", url: "https://enderson-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "朋友", title: "張仕翰的生日網頁", url: "https://ditto-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
     { group: "朋友", title: "呂宗展的生日網頁", url: "https://jameslu-hbd.netlify.app/", stack: ["HTML", "CSS"], note: "" },
