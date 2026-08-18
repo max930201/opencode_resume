@@ -225,7 +225,7 @@ a:hover { text-decoration: underline; }
   letter-spacing: -0.035em;
   word-break: break-word;
 }
-.pkg-scope { color: var(--red); }
+.pkg-scope { color: var(--ink); }
 .pkg-slash { color: var(--ink-3); font-weight: 400; }
 
 .pkg-badges {

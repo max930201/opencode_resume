@@ -24,8 +24,8 @@
     var scope = "@" + p.scope;
 
     $$("[data-field=navScope]").forEach(function (el) { el.textContent = scope; });
-    $$("[data-field=pkgScope]").forEach(function (el) { el.textContent = scope; });
-    $$("[data-field=breadcrumb]").forEach(function (el) { el.textContent = scope + "/frontend-engineer"; });
+    $$("[data-field=pkgScope]").forEach(function (el) { el.textContent = p.name; });
+    $$("[data-field=breadcrumb]").forEach(function (el) { el.textContent = scope; });
     $$("[data-field=footScope]").forEach(function (el) { el.textContent = scope; });
     $$("[data-field=pkgVersion]").forEach(function (el) { el.textContent = p.version; });
     $$("[data-field=pkgTag]").forEach(function (el) { el.textContent = p.tag; });

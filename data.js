@@ -11,7 +11,7 @@ const PORTFOLIO = {
     version: "v1.0.0",
     tag: "資管系",
     license: "公開 public",
-    position: "嘉南藥理大學資管系（進修部）在學中",
+    position: "學生",
     school: "嘉南藥理大學 資訊管理學系（進修部）",
     titleZh: "跨越意外，持續前進的資管系學生。",
     //titleEn: "Front-end development — real, deployed systems.",
@@ -117,11 +117,11 @@ const PORTFOLIO = {
 
   // ── 技能 dependencies ─────────────────────────────
   skills: [
-    { name: "frontend", version: "HTML·CSS·JS", desc: "前端：結構、樣式與互動。" },
-    { name: "backend-db", version: "Firebase·Sheets", desc: "後端／資料庫：Firebase（Authentication、Firestore）、Google Apps Script。", },
-    { name: "deploy", version: "Git·Netlify", desc: "版本控制與部署：Git（commit／push／branch／clone）、GitHub、Netlify。", },
-    { name: "tools", version: "Notion·Sheets", desc: "協作與文件工具：Notion、Google Sheets。", },
-    { name: "gtep", version: "初級·中級", desc: "語言能力：全民英檢初級通過、全民英檢中級（初試合格）。", },
+    { name: "前端", version: "HTML·CSS·JS", desc: "前端：結構、樣式與互動。" },
+    { name: "後端資料庫", version: "Firebase·Sheets", desc: "後端／資料庫：Firebase（Authentication、Firestore）、Google Apps Script。", },
+    { name: "部屬", version: "Git·Netlify", desc: "版本控制與部署：Git（commit／push／branch／clone）、GitHub、Netlify。", },
+    { name: "工具", version: "Notion·Sheets", desc: "協作與文件工具：Notion、Google Sheets。", },
+    { name: "英文能力", version: "初級·中級", desc: "語言能力：GEPT 全民英檢初級通過、GEPT 全民英檢中級（初試合格）。", },
   ],
 
   // ── 學習歷程（releases／milestones）───────────────
