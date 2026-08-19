@@ -136,7 +136,7 @@ const PORTFOLIO = {
 
   // ── 證照證書 ─────────────────────────────────────
   certificates: [
-    { id: "cert-01", name: "初級管理師證書", issuer: "American ESG Sustainable Development Association", date: "2025 年 2 月至 2025 年 6 月", image: "assets/images/certs/cert-01.jpg" },
+    { id: "cert-01", name: "初級管理師證書", issuer: "American ESG Sustainable Development Association", date: "114 年 2 月至 114 年 6 月", image: "assets/images/certs/cert-01.jpg" },
     { id: "cert-02", name: "經濟部產業 AI 人才培訓完訓證書", issuer: "台北市電腦公會", date: "115 年 6 月 16 日", image: "assets/images/certs/cert-02.jpg" },
     { id: "cert-03", name: "claude101 完訓證書", issuer: "Anthropic", date: "115 年 8 月 2 日", image: "assets/images/certs/cert-03.png" },
   ],
